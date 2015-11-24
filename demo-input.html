@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0,skrink-to-fit=no">
+	<title>移动端输入框demo</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			background-color: #000;
+			text-align: center;
+			padding-top: 20px;
+		}
+		p{
+			font-size: 20px;
+			color:#fff;
+			padding:10px;
+		}
+		input{
+			background-color: #fff;
+			border:none;
+			width: 80%;
+			height: 20px;
+			padding:4px 10px;
+			color:black;
+		}
+		hr{
+			background-color: #ccc;
+			margin:20px auto;;
+			border:0;
+			height: 1px;
+			transform:scaleY(.5);
+		}
+		.noneAppear::-webkit-outer-spin-button,
+		.noneAppear::-webkit-inner-spin-button {
+		    -webkit-appearance: none;
+		}
+	</style>
+</head>
+<body>
+	<p>type=text的输入框</p>
+	<input type="text">
+	<hr>
+	<p>type=number的输入框</p>
+	<input type="number">
+	<hr>
+	<p>type=number的输入框并设置样式-webkit-appearance: none;</p>
+	<input type="number" class="noneAppear">
+	<hr>
+	<p>type=tel的输入框</p>
+	<input type="tel">
+</body>
+</html>
