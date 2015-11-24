@@ -2,6 +2,7 @@
  - 在移动端，我们公司通过输入框主要收集用户的姓名和电话，以下是对输入框获取焦点时，控制弹出键盘的样式来增强用户体验。
 
 ###输入姓名
+<<<<<<< HEAD
 - 我们的用户都是中国人，输入用户名为中文，所以弹出键盘是输入中文状态即可，这个时候type = 'text'即可，默认状态下一般都是弹出中文输入键盘，所以  
 <input type="text">
 - 可满足
@@ -9,6 +10,13 @@
 ###输入电话/手机  
 - 这个需要输入数字，所以我们希望它获取焦点时可以弹出数字键盘，第一想到的是把type设置为number，但是在type=number时输入框的右侧会出现两个小按钮，丑丑的，而且点击还可输入负数，用户体验不好。
 - 所以我们尝试用样式来去掉这两个小按钮，我们设置webkit的-webkit-inner-spin-button属性以及-webkit-outer-spin-button属性，都设置为-webkit-appearance: none即可。大概样式是这样的  
+=======
+    我们的用户都是中国人，输入用户名为中文，所以弹出键盘是输入中文状态即可，这个时候type = 'text'即可，默认状态下一般都是弹出中文输入键盘，所以<input type="text">可满足
+
+###输入电话/手机
+    这个需要输入数字，所以我们希望它获取焦点时可以弹出数字键盘，第一想到的是把type设置为number，但是在type=number时输入框的右侧会出现两个小按钮，丑丑的，而且点击还可输入负数，用户体验不好。 
+    所以我们尝试用样式来去掉这两个小按钮，我们设置webkit的-webkit-inner-spin-button属性以及-webkit-outer-spin-button属性，都设置为-webkit-appearance: none即可。大概样式是这样的
+>>>>>>> origin/master
 
     类名::-webkit-inner-spin-button {
         -webkit-appearance: none;
