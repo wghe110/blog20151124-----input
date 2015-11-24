@@ -31,7 +31,7 @@
 ###总结
  >>>>在用input来收集用户信息时：
  >>>>**姓名输入用text即**  
-` <input type="text">  `
+` <input type="text">  `  
  >>>>**电话/手机输入用tel即**
   `  <input type="tel">`
 
